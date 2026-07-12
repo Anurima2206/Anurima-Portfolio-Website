@@ -13,12 +13,6 @@ const contactItems = [
     href: `mailto:${profile.email}`,
   },
   {
-    icon: Phone,
-    label: "Phone",
-    value: profile.phone,
-    href: `tel:${profile.phone.replace(/\s+/g, "")}`,
-  },
-  {
     icon: MapPin,
     label: "Location",
     value: profile.location,

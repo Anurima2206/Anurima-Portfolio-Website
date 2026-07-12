@@ -11,7 +11,6 @@ export const profile = {
   about:
     "I am a B.Tech CSE (IoT) student passionate about Full Stack Web Development and building scalable, user-centric web applications. I enjoy developing responsive and interactive web solutions, integrating AI models into real-world applications, and exploring IoT-based systems that bridge hardware and software. Through hands-on projects, Data Structures & Algorithms, and continuous learning, I strive to strengthen my problem-solving skills while building modern, impactful technology solutions.",
   email: "anutri2k05.com",
-  phone: "+91 6289959818",
   location: "Kolkata, West Bengal, India",
   github: "https://github.com/Anurima2206",
   linkedin: "https://www.linkedin.com/in/anurima-sarkar-bb7682337/",
