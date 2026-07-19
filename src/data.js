@@ -1,5 +1,5 @@
 import resume from "./assets/Anurima_resume.pdf"
-import image from "./assets/Anurima.jpeg"
+import image from "./assets/Photo.jpeg"
 import dermai from "./assets/DermAI.png"
 import mockint from "./assets/Mockterview.png"
 export const profile = {
@@ -7,10 +7,10 @@ export const profile = {
   role: "Full Stack Web Developer",
   subrole: "B.Tech CSE (IoT)",
   tagline:
-    "Building responsive web applications with React, Node.js and AI-powered solutions.",
+    "Building fast,responsive & production ready web applications using MERN stack & exploring AI integrations.",
   about:
     "I am a B.Tech CSE (IoT) student passionate about Full Stack Web Development and building scalable, user-centric web applications. I enjoy developing responsive and interactive web solutions, integrating AI models into real-world applications, and exploring IoT-based systems that bridge hardware and software. Through hands-on projects, Data Structures & Algorithms, and continuous learning, I strive to strengthen my problem-solving skills while building modern, impactful technology solutions.",
-  email: "anutri2k05.com",
+  email: "anutri2k05@gmail.com",
   location: "Kolkata, West Bengal, India",
   github: "https://github.com/Anurima2206",
   linkedin: "https://www.linkedin.com/in/anurima-sarkar-bb7682337/",
@@ -21,11 +21,11 @@ export const profile = {
 export const techStack = [
   {
     category: "Languages",
-    items: ["Java", "JavaScript", "Python", "HTML", "CSS"],
+    items: ["Java", "JavaScript", "Python", "C"],
   },
   {
     category: "Frontend",
-    items: ["React.js", "Tailwind"],
+    items: ["HTML", "CSS", "React.js", "Tailwind"],
   },
   {
     category: "Backend",

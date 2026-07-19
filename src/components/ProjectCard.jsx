@@ -66,7 +66,7 @@ export default function ProjectCard({ project, index }) {
                 href={project.liveUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex-1 inline-flex items-center justify-center gap-2 bg-accent text-bg font-semibold text-sm px-4 py-2.5 rounded-lg transition-transform duration-200 hover:scale-105 hover:bg-sky-300"
+                className="flex-1 inline-flex items-center justify-center gap-2 bg-accent text-bg font-semibold text-sm px-4 py-2.5 rounded-lg transition-transform duration-200 hover:scale-105 hover:bg-accentLight"
               >
                 <ExternalLink size={15} />
                 Live Demo

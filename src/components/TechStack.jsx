@@ -19,6 +19,7 @@ import { VscVscode } from "react-icons/vsc";
 import SectionEyebrow from "./SectionEyebrow";
 import Reveal from "./Reveal";
 import { techStack } from "../data";
+import { FaC } from "react-icons/fa6";
 
 const iconMap = {
   Java: { icon: FaJava, color: "#f89820" },
@@ -37,6 +38,7 @@ const iconMap = {
   GitHub: { icon: SiGithub, color: "#FFFFFF" },
   "VS Code": { icon: VscVscode, color: "#007ACC" },
   Postman: { icon: SiPostman, color: "#FF6C37" },
+  C: {icon: FaC, color:"#1572B6" }
 };
 
 function Badge({ name }) {
@@ -53,7 +55,7 @@ function Badge({ name }) {
 
 export default function TechStack() {
   return (
-    <section id="skills" className="py-24 border-t border-border/60">
+    <section id="skills" className="py-12 border-t border-border/60">
       <div className="max-w-6xl mx-auto px-6 md:px-8">
         <Reveal>
           <SectionEyebrow>Tech-stack</SectionEyebrow>

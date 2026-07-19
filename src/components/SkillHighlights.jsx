@@ -5,7 +5,7 @@ import { skillHighlights } from "../data";
 
 export default function SkillHighlights() {
   return (
-    <section className="py-24 border-t border-border/60">
+    <section className="py-12 border-t border-border/60">
       <div className="max-w-6xl mx-auto px-6 md:px-8">
         <Reveal>
           <SectionEyebrow>Capabilities</SectionEyebrow>

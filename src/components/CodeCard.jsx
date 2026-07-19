@@ -5,7 +5,7 @@ export default function CodeCard() {
     { indent: 1, code: [{ t: "name:", c: "text-accent" }, { t: " 'Anurima Sarkar',", c: "text-emerald-300" }] },
     { indent: 1, code: [{ t: "role:", c: "text-accent" }, { t: " 'Full Stack Developer',", c: "text-emerald-300" }] },
     { indent: 1, code: [{ t: "stack:", c: "text-accent" }, { t: " ['React', 'Node', 'AI'],", c: "text-emerald-300" }] },
-    { indent: 1, code: [{ t: "loading:", c: "text-accent" }, { t: " false,", c: "text-sky-300" }] },
+    { indent: 1, code: [{ t: "loading:", c: "text-accent" }, { t: " false,", c: "text-accentLight" }] },
     { indent: 0, code: [{ t: "};", c: "text-muted" }] },
   ];
 

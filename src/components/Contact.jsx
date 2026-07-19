@@ -21,20 +21,20 @@ const contactItems = [
   {
     icon: SiGithub,
     label: "GitHub",
-    value: "github.com/anurimasarkar",
+    value: "github.com/Anurima2206",
     href: profile.github,
   },
   {
     icon: FaLinkedin,
     label: "LinkedIn",
-    value: "linkedin.com/in/anurimasarkar",
+    value: "linkedin.com/in/anurima-sarkar",
     href: profile.linkedin,
   },
 ];
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-24 border-t border-border/60">
+    <section id="contact" className="py-12 border-t border-border/60">
       <div className="max-w-6xl mx-auto px-6 md:px-8">
         <Reveal>
           <SectionEyebrow>Contacts</SectionEyebrow>
@@ -86,7 +86,7 @@ export default function Contact() {
           <a
             href={profile.resumeUrl}
             download
-            className="inline-flex items-center gap-2 bg-accent text-bg font-semibold px-6 py-3 rounded-lg transition-transform duration-200 hover:scale-105 hover:bg-sky-300"
+            className="inline-flex items-center gap-2 bg-accent text-bg font-semibold px-6 py-3 rounded-lg transition-transform duration-200 hover:scale-105 hover:bg-accentLight"
           >
             <Download size={18} />
             Download Resume

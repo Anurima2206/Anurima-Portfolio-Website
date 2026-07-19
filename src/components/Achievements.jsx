@@ -5,7 +5,7 @@ import { achievements } from "../data";
 
 export default function Achievements() {
   return (
-    <section className="py-24 border-t border-border/60">
+    <section className="py-12 border-t border-border/60">
       <div className="max-w-6xl mx-auto px-6 md:px-8">
         <Reveal>
           <SectionEyebrow>Achievements</SectionEyebrow>
@@ -28,3 +28,4 @@ export default function Achievements() {
     </section>
   );
 }
+

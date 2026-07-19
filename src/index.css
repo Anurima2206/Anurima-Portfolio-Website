@@ -9,44 +9,44 @@ html {
 }
 
 body {
-  background-color: #0f172a;
+  background-color: #1A130D;
   color: #ffffff;
   font-family: "Inter", sans-serif;
 }
 
 ::selection {
-  background-color: #38bdf8;
-  color: #0f172a;
+  background-color: #986334;
+  color: #1A130D;
 }
 
 ::-webkit-scrollbar {
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: #0f172a;
+  background: #211710;
 }
 ::-webkit-scrollbar-thumb {
-  background: #2a3b54;
+  background: #35281c;
   border-radius: 999px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #38bdf8;
+  background: #3a2b1f;
 }
 
 /* subtle dot grid background used behind hero/sections */
 .dot-grid {
-  background-image: radial-gradient(#2a3b54 1px, transparent 1px);
+  background-image: radial-gradient(#5a422f 1px, transparent 1px);
   background-size: 26px 26px;
 }
 
 .section-eyebrow {
   font-family: "JetBrains Mono", monospace;
-  color: #38bdf8;
+  color: #be712d;
   letter-spacing: 0.02em;
 }
 
 :focus-visible {
-  outline: 2px solid #38bdf8;
+  outline: 2px solid #be712d;
   outline-offset: 3px;
 }
 

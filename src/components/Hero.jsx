@@ -14,7 +14,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center pt-24 pb-16 dot-grid"
+      className="relative min-h-screen flex items-center pt-10 pb-5 dot-grid"
     >
       <div className="absolute inset-0 bg-gradient-to-b from-bg via-bg/95 to-bg" aria-hidden="true" />
 
@@ -27,7 +27,7 @@ export default function Hero() {
           </h1>
 
           <div className="font-mono text-lg sm:text-xl text-accent mb-2 min-h-[2rem]">
-            <TypingEffect phrases={[profile.role, profile.subrole]} />
+            <TypingEffect phrases={[profile.role, "MERN Developer",profile.subrole]} />
           </div>
 
           <p className="text-muted text-base sm:text-lg leading-relaxed max-w-lg mt-5 mb-8">
@@ -37,7 +37,7 @@ export default function Hero() {
           <div className="flex flex-wrap gap-4 mb-10">
             <button
               onClick={() => scrollTo("#projects")}
-              className="group inline-flex items-center gap-2 bg-accent text-bg font-semibold px-6 py-3 rounded-lg transition-transform duration-200 hover:scale-105 hover:bg-sky-300"
+              className="group inline-flex items-center gap-2 bg-accent text-bg font-semibold px-6 py-3 rounded-lg transition-transform duration-200 hover:scale-105 hover:bg-accentLight"
             >
               View Projects
               <ArrowRight size={18} className="transition-transform group-hover:translate-x-1" />

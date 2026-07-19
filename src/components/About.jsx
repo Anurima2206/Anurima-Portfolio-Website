@@ -4,7 +4,7 @@ import { profile } from "../data";
 
 export default function About() {
   return (
-    <section id="about" className="py-24 border-t border-border/60">
+    <section id="about" className="py-12 border-t border-border/60">
       <div className="max-w-6xl mx-auto px-6 md:px-8">
         <Reveal>
           <SectionEyebrow>About</SectionEyebrow>

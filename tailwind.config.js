@@ -4,13 +4,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        bg: "#0F172A",
-        card: "#1E293B",
-        cardHover: "#243247",
-        accent: "#38BDF8",
-        accentDim: "#0EA5E9",
-        border: "#2A3B54",
-        muted: "#94A3B8",
+        bg: "#1A130D",
+        card: "#241A12",
+        cardHover: "#2E2117",
+        accent: "#C08552",
+        accentLight: "#DCA974",
+        accentDim: "#9C6B3E",
+        border: "#3B2A1D",
+        muted: "#A8927E",
       },
       fontFamily: {
         display: ["'Space Grotesk'", "sans-serif"],

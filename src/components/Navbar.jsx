@@ -45,7 +45,7 @@ export default function Navbar() {
         scrolled ? "bg-bg/90 backdrop-blur-md border-b border-border" : "bg-transparent"
       }`}
     >
-      <nav className="max-w-6xl mx-auto px-6 md:px-8 h-16 flex items-center justify-between">
+      <nav className="max-w-6xl mx-auto px-6 md:px-8 h-16 flex items-center justify-between text-base">
         <a
           href="#home"
           onClick={(e) => {
@@ -61,7 +61,7 @@ export default function Navbar() {
           </span>
         </a>
 
-        <ul className="hidden md:flex items-center gap-1 font-mono text-sm">
+        <ul className="hidden md:flex items-center gap-1 font-mono text-base">
           {navLinks.map((link) => (
             <li key={link.href}>
               <a
