@@ -79,6 +79,23 @@ export const projects = [
     githubUrl: "https://github.com/Anurima2206/DermAI-Skin-Disease-Prediction-Website.git",
     featured: true,
   },
+  {
+  id: "dropout",
+  title: "Learnova",
+  subtitle: "Student Dropout Prediction Platform",
+  description:
+    "A student-focused platform designed to identify students at risk of dropping out using academic and engagement data, supported by an early intervention dashboard for timely monitoring and counseling.",
+  features: [
+    "Machine learning models using Logistic Regression and Random Forest to predict student dropout from 35 input features (~78% accuracy)",
+    "Early intervention dashboard for monitoring attendance, scores, fees, and identifying at-risk students",
+    "Automated rule-based thresholds and timely alerts to support proactive intervention",
+    "Counseling support and student engagement features with data anonymization for privacy",
+  ],
+  tech: ["Python", "Scikit-learn", "Pandas", "NumPy","HTML","CSS","Next.js"],
+  image: learnova,
+  githubUrl: "https://github.com/byteforge101/sih.git",
+  featured: true,
+},
 ];
 
 export const skillHighlights = [
