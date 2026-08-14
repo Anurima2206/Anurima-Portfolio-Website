@@ -27,7 +27,7 @@ export default function Hero() {
           </h1>
 
           <div className="font-mono text-lg sm:text-xl text-accent mb-2 min-h-[2rem]">
-            <TypingEffect phrases={[profile.role, "MERN Developer",profile.subrole]} />
+            <TypingEffect phrases={[profile.role, "AI/ML Enthusiast",profile.subrole]} />
           </div>
 
           <p className="text-muted text-base sm:text-lg leading-relaxed max-w-lg mt-5 mb-8">

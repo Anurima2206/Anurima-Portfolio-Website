@@ -9,7 +9,7 @@ export const profile = {
   tagline:
     "Building fast,responsive & production ready web applications using MERN stack & exploring AI integrations.",
   about:
-    "I am a B.Tech CSE (IoT) student passionate about Full Stack Web Development and building scalable, user-centric web applications. I enjoy developing responsive and interactive web solutions, integrating AI models into real-world applications, and exploring IoT-based systems that bridge hardware and software. Through hands-on projects, Data Structures & Algorithms, and continuous learning, I strive to strengthen my problem-solving skills while building modern, impactful technology solutions.",
+    "I am a B.Tech CSE (IoT) student passionate about **Full Stack Web Development, Artificial Intelligence, and Machine Learning**. I enjoy designing and developing responsive, user-centric web applications using modern frontend and backend technologies, while building a strong understanding of APIs, databases, and application development. Alongside full stack development, I am actively exploring **AI/ML**, including data preprocessing, model training, evaluation, and integrating trained models into real-world applications. I am particularly interested in combining web technologies with AI to build practical and intelligent solutions. Through hands-on projects, **Data Structures & Algorithms**, and continuous learning, I aim to strengthen my problem-solving skills and develop scalable applications that address real-world challenges.",
   email: "anutri2k05@gmail.com",
   location: "Kolkata, West Bengal, India",
   github: "https://github.com/Anurima2206",
@@ -93,6 +93,7 @@ export const projects = [
   ],
   tech: ["Python", "Scikit-learn", "Pandas", "NumPy","HTML","CSS","Next.js"],
   image: learnova,
+  liveUrl: "sih-sih-co98.vercel.app",
   githubUrl: "https://github.com/byteforge101/sih.git",
   featured: true,
 },
