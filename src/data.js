@@ -2,14 +2,15 @@ import resume from "./assets/Anurima_resume.pdf"
 import image from "./assets/Photo.jpeg"
 import dermai from "./assets/DermAI.png"
 import mockint from "./assets/Mockterview.png"
+import learnova from "./assets/learnova.png"
 export const profile = {
   name: "Anurima Sarkar",
   role: "Full Stack Web Developer",
   subrole: "B.Tech CSE (IoT)",
   tagline:
-    "Building fast,responsive & production ready web applications using MERN stack & exploring AI integrations.",
+    "Building fast,responsive & production ready web applications using MERN stack, training models using Machine Learning & exploring AI integrations.",
   about:
-    "I am a B.Tech CSE (IoT) student passionate about Full Stack Web Development and building scalable, user-centric web applications. I enjoy developing responsive and interactive web solutions, integrating AI models into real-world applications, and exploring IoT-based systems that bridge hardware and software. Through hands-on projects, Data Structures & Algorithms, and continuous learning, I strive to strengthen my problem-solving skills while building modern, impactful technology solutions.",
+    "I am a B.Tech CSE (IoT) student passionate about Full Stack Web Development, Artificial Intelligence, and Machine Learning. I enjoy designing and developing responsive, user-centric web applications using modern frontend and backend technologies, while building a strong understanding of APIs, databases, and application development. Alongside full stack development, I am actively exploring AI/ML, including data preprocessing, model training, evaluation, and integrating trained models into real-world applications. I am particularly interested in combining web technologies with AI to build practical and intelligent solutions. Through hands-on projects, Data Structures & Algorithms, and continuous learning, I aim to strengthen my problem-solving skills and develop scalable applications that address real-world challenges.",
   email: "anutri2k05@gmail.com",
   location: "Kolkata, West Bengal, India",
   github: "https://github.com/Anurima2206",
@@ -38,6 +39,10 @@ export const techStack = [
   {
     category: "Tools",
     items: ["Git", "GitHub", "VS Code", "Postman"],
+  },
+  {
+    category: "Machine Learning",
+    items: ["NumPy", "Pandas", "Scikit-learn", "Data Preprocessing", "Feature Engineering", "Model Training", "Model Evaluation"],
   },
 ];
 
@@ -79,10 +84,29 @@ export const projects = [
     githubUrl: "https://github.com/Anurima2206/DermAI-Skin-Disease-Prediction-Website.git",
     featured: true,
   },
+  {
+    id: "dropout",
+    title: "Learnova",
+    subtitle: "Student Dropout Prediction Website",
+    description:
+      "A student-focused platform designed to identify students at risk of dropping out using academic and engagement data, supported by an early intervention dashboard for timely monitoring and counseling.",
+      features: [
+  "Machine learning models using Logistic Regression and Random Forest to predict student dropout from 35 input features (~78% accuracy)",
+    "Early intervention dashboard for monitoring attendance, scores, fees, and identifying at-risk students",
+    "Automated rule-based thresholds and timely alerts to support proactive intervention",
+    "Counseling support and student engagement features with data anonymization for privacy",
+],
+    tech: ["Python", "Scikit-learn", "Pandas", "NumPy","Next.js"],
+    image: learnova,
+    liveUrl: "https://sih-sih-co98.vercel.app/",
+    githubUrl: "https://github.com/byteforge101/sih.git",
+    featured: true,
+  },
 ];
 
 export const skillHighlights = [
   "Responsive Web Design",
+  "Dataset training by machine learning",
   "REST API Integration",
   "Authentication (JWT)",
   "MongoDB CRUD Operations",
